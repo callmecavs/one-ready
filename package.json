@@ -1,6 +1,6 @@
 {
   "name":        "one-ready",
-  "description": "",
+  "description": "A Promise wrapper for DOMContentLoaded that prevents event duplication.",
 
   "main":        "dist/one-ready.js",
   "module":      "dist/one-ready.module.js",
