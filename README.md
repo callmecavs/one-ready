@@ -17,8 +17,8 @@ Respond to the DOM being ready in different JS modules without binding multiple 
 ```javascript
 import ready from 'one-ready'
 
-// multiple files
-ready().then(() => console.log('Only one event handler is bound.'))
+ready().then(() => console.log('Only one DOMContentLoaded event handler is bound.'))
+ready().then(() => console.log('Even if imported and called in other modules.'))
 ```
 
 ## See Also
